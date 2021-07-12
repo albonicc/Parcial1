@@ -94,16 +94,23 @@ header,.content{
 /*
 (3) Agrega codigo flex para que aparezcan los encabezados. (Solo necesitas activar flex)
 
-*/      
+*/    
+      display: flex;
       }
 
       .nav {
 /*
 (3.1) Utiliza el mismo .nav del media query anterior
 */
+        flex-direction: row;
         height: auto;
 
       }
+
+    .nav > li {
+      margin: 3px;
+      padding: 0 50px;
+    }
 
     h2 {
         border: solid;
@@ -145,7 +152,7 @@ header,.content{
 (4) Agrega codigo flex papara modificar el posicionamiento de los articulos en filas.
 
 */   
-
+          display: flex;
           width: 70%;
       }
     
