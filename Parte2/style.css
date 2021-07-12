@@ -10,7 +10,7 @@ header,.content{
 
   .nav {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       height: 100vh;
       list-style: none;
       justify-content:space-around;
