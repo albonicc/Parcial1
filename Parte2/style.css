@@ -43,10 +43,14 @@ header,.content{
 (2) Agrega el código necesartio de flex para que los elementos de navegación aparezcan en filas como en la imagen.
 */
         height: auto;
-    
+        flex-direction: row;
+        justify-content: flex-end;
       }
 
-
+      .nav > li {
+        margin: 3px;
+        padding: 0 14px;
+      }
 
       .content{
         display: flex;
